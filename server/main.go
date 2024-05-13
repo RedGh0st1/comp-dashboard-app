@@ -29,9 +29,4 @@ func main(){
 	// log fatal => logs the error and terminate the program
 	log.Fatal(app.Listen(":3000"))
 
-
-	app.Get()
-	app.Post()
-	app.Put()
-	app.Delete()
 }
